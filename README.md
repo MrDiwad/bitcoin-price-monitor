@@ -1,4 +1,4 @@
-# Crypto Price Monitor (n8n)
+# Bitcoin Price Monitor (n8n)
 
 # What is this? 
 A simple automation that keeps an eye on the bitcoin. It tracks price changes and alerts only when something interesting is happening (like a significant "dip").
