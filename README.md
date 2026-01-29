@@ -1,7 +1,9 @@
-Crypto Price Monitor (n8n)
-What is this? A simple automation that keeps an eye on the bitcoin. It tracks price changes and alerts only when something interesting is happening (like a significant "dip").
+# Crypto Price Monitor (n8n)
 
-How it works:
+# What is this? 
+A simple automation that keeps an eye on the bitcoin. It tracks price changes and alerts only when something interesting is happening (like a significant "dip").
+
+# How it works:
 
 Schedule: The workflow runs automatically every hour.
 
@@ -13,7 +15,7 @@ Conditional Alert: If the price drops by more than 4% or goes up by 4%, it trigg
 
 Notification: It sends a formatted alert to Discord, letting know it might be a good time to "buy the dip." or open short position.
 
-Tech stack:
+# Tech stack:
 
 n8n (Self-hosted via Docker)
 
